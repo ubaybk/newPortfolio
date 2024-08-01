@@ -434,13 +434,23 @@ const Home = () => {
                 <img src="/blog/1.jpeg" alt="keyboard" className="w-full" />
                 <div className="py-8 px-6">
                   <h3>
-                    <a href="#" className="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate">Tips Keyboard</a>
+                    <a
+                      href="#"
+                      className="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate"
+                    >
+                      Tips Keyboard
+                    </a>
                   </h3>
                   <p className="font-medium text-base text-secondary mb-6">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Obcaecati, consequatur?
                   </p>
-                  <a href="#" className="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:opacity-80">Baca Selengkapnya</a>
+                  <a
+                    href="#"
+                    className="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:opacity-80"
+                  >
+                    Baca Selengkapnya
+                  </a>
                 </div>
               </div>
             </div>
@@ -449,13 +459,23 @@ const Home = () => {
                 <img src="/blog/1.jpeg" alt="keyboard" className="w-full" />
                 <div className="py-8 px-6">
                   <h3>
-                    <a href="#" className="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate">Tips Keyboard</a>
+                    <a
+                      href="#"
+                      className="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate"
+                    >
+                      Tips Keyboard
+                    </a>
                   </h3>
                   <p className="font-medium text-base text-secondary mb-6">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Obcaecati, consequatur?
                   </p>
-                  <a href="#" className="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:opacity-80">Baca Selengkapnya</a>
+                  <a
+                    href="#"
+                    className="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:opacity-80"
+                  >
+                    Baca Selengkapnya
+                  </a>
                 </div>
               </div>
             </div>
@@ -464,13 +484,23 @@ const Home = () => {
                 <img src="/blog/1.jpeg" alt="keyboard" className="w-full" />
                 <div className="py-8 px-6">
                   <h3>
-                    <a href="#" className="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate">Tips Keyboard</a>
+                    <a
+                      href="#"
+                      className="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate"
+                    >
+                      Tips Keyboard
+                    </a>
                   </h3>
                   <p className="font-medium text-base text-secondary mb-6">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Obcaecati, consequatur?
                   </p>
-                  <a href="#" className="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:opacity-80">Baca Selengkapnya</a>
+                  <a
+                    href="#"
+                    className="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:opacity-80"
+                  >
+                    Baca Selengkapnya
+                  </a>
                 </div>
               </div>
             </div>
@@ -478,6 +508,186 @@ const Home = () => {
         </div>
       </section>
       {/* Blog Section Start */}
+
+      {/* Contact Section Start */}
+      <section id="contact" className="pt-36 pb-32">
+        <div className="container">
+          <div className="w-full px-4">
+            <div className="max-w-xl mx-auto text-center mb-16">
+              <h4 className="font-semibold text-lg text-primary mb-2">
+                Contact
+              </h4>
+              <h2 className="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">
+                Hubungi Kami
+              </h2>
+              <p className="font-medium text-secondary text-[18px] md:text-lg">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
+                consequuntur.
+              </p>
+            </div>
+          </div>
+
+          <form action="">
+            <div className="w-full lg:w-2/3 lg:mx-auto">
+              <div className="w-full px-4 mb-8">
+                <label
+                  htmlFor="name"
+                  className="text-base text-primary font-bold"
+                >
+                  Nama
+                </label>
+                <input
+                  type="text"
+                  id="name"
+                  className="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary"
+                />
+              </div>
+              <div className="w-full px-4 mb-8">
+                <label
+                  htmlFor="email"
+                  className="text-base text-primary font-bold"
+                >
+                  Email
+                </label>
+                <input
+                  type="email"
+                  id="email"
+                  className="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary"
+                />
+              </div>
+              <div className="w-full px-4 mb-8">
+                <label
+                  htmlFor="message"
+                  className="text-base text-primary font-bold"
+                >
+                  Pesan
+                </label>
+                <textarea
+                  type="email"
+                  id="email"
+                  className="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary h-32"
+                ></textarea>
+              </div>
+              <div className="w-full px-4">
+                <button className="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full w-full hover:opacity-80 hover:shadow-lg duration-500">
+                  Kirim
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+      {/* Contact Section End */}
+
+      {/* footer start */}
+      <footer className="bg-dark pt-24 pb-12">
+        <div className="container">
+          <div className="flex flex-wrap">
+            <div className="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3">
+              <h2 className="font-bold text-4xl text-white mb-5">Bayu</h2>
+              <h3 className="font-bold text-2xl mb-2">Hubungi Kami</h3>
+              <p>Jl. Srengseng Sawah</p>
+              <p>DKI Jakarta</p>
+            </div>
+            <div className="w-full px-4 mb-12 md:w-1/3">
+              <h3 className=" font-semibold text-xl text-white mb-5">Kategori Tulisan</h3>
+              <ul className="text-slate-300">
+                <li>
+                  <a href="" className="inline-block text-base hover:text-primary mb-3">Programing</a>
+                </li>
+                <li>
+                  <a href="" className="inline-block text-base hover:text-primary mb-3">Teknologi</a>
+                </li>
+                <li>
+                  <a href="" className="inline-block text-base hover:text-primary mb-3">Gaya Hidup</a>
+                </li>
+              </ul>
+            </div>
+            <div className="w-full px-4 mb-12 md:w-1/3">
+              <h3 className=" font-semibold text-xl text-white mb-5">Tautan</h3>
+              <ul className="text-slate-300">
+                <li>
+                  <a href="#home" className="inline-block text-base hover:text-primary mb-3">Beranda</a>
+                </li>
+                <li>
+                  <a href="#about" className="inline-block text-base hover:text-primary mb-3">Tentang Saya</a>
+                </li>
+                <li>
+                  <a href="#portfolio" className="inline-block text-base hover:text-primary mb-3">Portfolio</a>
+                </li>
+                <li>
+                  <a href="#clients" className="inline-block text-base hover:text-primary mb-3">Clients</a>
+                </li>
+                <li>
+                  <a href="#blog" className="inline-block text-base hover:text-primary mb-3">Blog</a>
+                </li>
+                <li>
+                  <a href="#contact" className="inline-block text-base hover:text-primary mb-3">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="w-full pt-10 border-t border-slate-800">
+          <div className="flex items-center justify-center mb-5">
+                {/* youtube */}
+                <a
+                  href="https://www.youtube.com/@BayuKurniawan"
+                  target="_blank"
+                  className="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+                >
+                  <svg
+                    role="img"
+                    width={20}
+                    className="fill-current"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <title>YouTube</title>
+                    <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+                  </svg>
+                </a>
+
+                {/* instagram */}
+                <a
+                  href="https://www.instagram.com/ubaybk"
+                  target="_blank"
+                  className="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+                >
+                  <svg
+                    role="img"
+                    width={20}
+                    className="fill-current"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <title>Instagram</title>
+                    <path d="M7.5 2a5.5 5.5 0 0 0-5.5 5.5v9a5.5 5.5 0 0 0 5.5 5.5h9a5.5 5.5 0 0 0 5.5-5.5v-9a5.5 5.5 0 0 0-5.5-5.5h-9zm0 2h9a3.5 3.5 0 0 1 3.5 3.5v9a3.5 3.5 0 0 1-3.5 3.5h-9a3.5 3.5 0 0 1-3.5-3.5v-9a3.5 3.5 0 0 1 3.5-3.5zm9.094 2a1.13 1.13 0 1 0 0 2.261 1.13 1.13 0 0 0 0-2.261zm-4.594 1.13a2.871 2.871 0 1 0 5.742 0 2.871 2.871 0 0 0-5.742 0z" />
+                  </svg>
+                </a>
+
+                {/* linkedin */}
+                <a
+                  href="https://www.linkedin.com/in/bayukurniawan/"
+                  target="_blank"
+                  className="w-9 h-9 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+                >
+                  <svg
+                    role="img"
+                    width={20}
+                    className="fill-current"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <title>LinkedIn</title>
+                    <path d="M4.98 3.5c0-1.71 1.35-3.09 3.02-3.09 1.66 0 3.01 1.38 3.01 3.09 0 1.71-1.35 3.09-3.01 3.09-1.67 0-3.02-1.38-3.02-3.09zm4.85 17.5H3.15V8.13h2.69v12.87zm8.02-6.63v.2c0 3.38-1.82 5.51-4.49 5.51-2.02 0-3.46-1.36-4.03-2.66h-.05v2.22H6.65V8.13h2.69v1.46c.37-.57 1.03-1.37 2.3-1.37 1.68 0 2.96 1.09 2.96 3.44zM4.98 3.5c0-1.71 1.35-3.09 3.02-3.09 1.66 0 3.01 1.38 3.01 3.09 0 1.71-1.35 3.09-3.01 3.09-1.67 0-3.02-1.38-3.02-3.09zm4.85 17.5H3.15V8.13h2.69v12.87zm8.02-6.63v.2c0 3.38-1.82 5.51-4.49 5.51-2.02 0-3.46-1.36-4.03-2.66h-.05v2.22H6.65V8.13h2.69v1.46c.37-.57 1.03-1.37 2.3-1.37 1.68 0 2.96 1.09 2.96 3.44z" />
+                  </svg>
+                </a>
+              </div>
+              <p className="font-medium text-sm text-slate-500 text-center">Dibuat dengan ❤️ oleh Bayu Kurniawan, menggunakan Tailwind CSS </p>
+          </div>
+        </div>
+      </footer>
+      {/* footer end */}
     </Layout>
   );
 };
